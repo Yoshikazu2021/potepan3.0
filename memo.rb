@@ -21,6 +21,6 @@ if memo_type == "1"
       puts "メモしたい内容を記入してください"
       puts "完了したらCtrl + Dを押します"
       memo_message = gets
-      file.put "#{memo_message}"
+      file.put "#{memo_message}" 
     
   end 
